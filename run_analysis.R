@@ -81,6 +81,7 @@ write.table(tidy_data, "tidy_data.txt")
 #
 # Creates a second, clean data set with the averages of each variable
 # get the subjects, activities, columns, and set up the results table to loop through
+# 
 uniqueSubjects = unique(subjectCombined)[,1]
 numSubjects = length(unique(subjectCombined)[,1])
 numActivities = length(activities[,1])
